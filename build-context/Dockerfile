@@ -5,3 +5,5 @@ RUN apk add --no-cache \
     ca-certificates \
     sshpass \
     bash
+
+CMD [ "/bin/bash" ]
