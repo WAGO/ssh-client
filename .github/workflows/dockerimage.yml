@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - build-context
+      - build-context/*
       - .github/workflows/dockerimage.yml
   workflow_dispatch:
 jobs:
